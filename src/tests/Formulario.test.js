@@ -24,7 +24,7 @@ describe('mayorDeEdad function', () => {
   });
 });
 
-describe('Formulario component', () => {
+describe('Componentes Formulario', () => {
   it('Comprueba que se renderizan los elementos', () => {
     render(<Formulario />);
     expect(screen.getByRole('heading', { level: 2, name: /rellena el formulario/i })).toBeInTheDocument();
